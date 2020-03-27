@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type = "module" src="app.js"></script>
+</head>
+<body>
+    <!--inputs for every word we're going to replace  -->
+    <section id='input-container'>
+        <ul>
+            <label>
+                Noun (place)
+                <input id='noun01-input'>
+            </label> <br><br>
+
+            <label>
+                Noun
+                <input id='noun02-input'>
+            </label><br><br>
+
+            <label>
+                Verb
+                <input id='verb01-input'>
+            </label><br><br>
+
+            <label>
+                Verb
+                <input id='verb02-input'>
+            </label><br><br>
+
+            <label>
+                Noun
+                <input id='noun03-input'>
+            </label><br><br>
+
+            <label>
+                Verb
+                <input id='verb03-input'>
+            </label><br><br>
+
+            <label>
+                Noun (plural)
+                <input id='noun04-input'>
+            </label><br><br>
+
+            <label>
+                Verb (-ing)
+                <input id='verb04-input'>
+            </label><br><br>
+
+            <label>
+                Verb (-ing)
+                <input id='verb05-input'>
+            </label><br><br>
+
+            <label>
+                Noun
+                <input id='noun05-input'>
+            </label><br><br>
+
+            <label>
+                Adjective
+                <input id='adjective01-input'>
+            </label><br><br>
+
+            <label>
+                Noun
+                <input id='noun06-input'>
+            </label><br><br>
+
+            <label>
+                Adjective
+                <input id='adjective02-input'>
+            </label><br><br>
+
+            <label>
+                Noun
+                <input id='noun07-input'>
+            </label><br><br>
+
+            <label>
+                Noun
+                <input id='noun08-input'>
+            </label><br><br>
+
+
+        </ul>
+    </section>
+    <!-- button that submits our inputs, hides the inputs, and makes the text below visible -->
+    <button id= 'submit-button'>Submit!</button>
+    
+    <!-- text of our mad lib (hidden at first, but later visible) -->
+    <section class = 'madlib-container' id='madlib-container'>
+        <div>
+        Tumble outta bed and I stumble to the <span id='noun01-span'></span><br>
+        Pour myself a cup of <span id='noun02-span'></span><br>
+        <span id='verb01-span'></span> and <span id='verb02-span'></span> and try to come to life <br>
+        Jump in the <span id='noun03'></span> and the blood starts pumpin' <br>
+        Out on the street the traffic starts <span id='verb03-span'></span><br>
+        With <span id= 'noun04'></span> like me on the job from 9 to 5. <br><br>
+
+       <span id= 'verb04-span'> 9 to 5, what a way to make a livin'<br>
+        Barely gettin' by, it's all talkin' and no <span id='verb05-span'></span><br>
+        They just use your <span id='noun05'></span> and they never give you credit<br>
+        It's enough to drive you <span id='adjective01-span'></span> if you let it<br>
+        9 to 5, for you service and <span id='noun06-span'></span><br>
+        You would think that I would deserve a <span id='adjective02-span'></span> promotion <br>
+        Want to move ahead but the <span id='noun07-span'></span> won't seem to let me <br>
+        I swear sometimes that <span id='noun08-span'></span> is out to get me!
+
+
+        </div>
+    </section>
+</body>
+</html>
